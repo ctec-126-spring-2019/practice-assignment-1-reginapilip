@@ -1,0 +1,1 @@
+alert("Click OK to show page contents.")

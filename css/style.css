@@ -1,7 +1,47 @@
 /* style.css */
 
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Manrope&display=swap');
+:root {
+    --fs-paragraph: 1.5rem;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
+    font-size: 6rem;
+}
+
+.content-1, .content-2 {
+    padding: 1em 2em;
+    font-size: var(--fs-paragraph);
+}
+
+ul {
+    font-size: calc((var(--fs-paragraph))*0.8);
+    line-height: 1.8;
+}
+
+.question-header {
+    border-left: 4px solid coral;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container-footer {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: rgba(255, 127, 80, 0.144);
+    padding: 0.75em 0 0.01em 0;
+    margin-top: 3em;
 }
